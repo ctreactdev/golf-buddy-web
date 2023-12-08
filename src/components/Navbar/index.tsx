@@ -10,9 +10,9 @@ const Navbar = () => {
         <Link href="/">
           <HandMetal />
         </Link>
-        <Link href="/sign-in">Sign in</Link>
-        <Link className={buttonVariants()} href="/sign-up">
-          Sign up
+
+        <Link className={buttonVariants()} href="/sign-in">
+          Sign in
         </Link>
       </div>
     </div>
